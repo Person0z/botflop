@@ -92,3 +92,8 @@ max-entity-collisions:
   - parseInt(spigot["world-settings"]["default"]["max-entity-collisions"]) >= 8
   prefix: "❌"
   value: "Decrease this in spigot.yml.\nRecommended: 2."
+simulation-distance:
+- expressions:
+  - spigot["world-settings"]["default"]["simulation-distance"] == "default" or parseInt(spigot["world-settings"]["default"]["simulation-distance"]) > 5
+  prefix: "❌"
+  value: "Decrease this in spigot.yml.\nRecommended: 5 or lower."

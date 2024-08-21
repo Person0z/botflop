@@ -250,14 +250,7 @@ module.exports = async function analyzeProfile(message, client, args) {
 		}
 	});
 
-	// No way to get gamerules from spark
-	// const worlds = sampler.metadata.platformStatistics.world.worlds;
-	// let high_mec = false;
-	// worlds.forEach(world => {
-	// 	const max_entity_cramming = parseInt(world.gamerules.maxEntityCramming);
-	// 	if (max_entity_cramming >= 24) high_mec = true;
-	// });
-	// if (high_mec) fields.push({ name: '❌ maxEntityCramming', value: 'Decrease this by running the /gamerule command in each world. Recommended: 8.', inline: true });
+	// No way to get gamerules from spark. If this changes in the future, add a maxEntityCramming field. See analyzeTimings.js for example.
 
 	const tpstypes = sampler.metadata.platformStatistics.tps;
 	const avgtps = Math.min(Math.round((tpstypes.last1m + tpstypes.last5m + tpstypes.last15m) / 3), 20);
