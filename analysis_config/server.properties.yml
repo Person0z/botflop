@@ -11,3 +11,8 @@ network-compression-threshold:
   - spigot["settings"]["bungeecord"] == "false"
   prefix: "❌"
   value: "Increase this in server.properties. Recommended: 512."
+simulation-distance:
+- expressions:
+  - (spigot["world-settings"]["default"]["simulation-distance"] == "default" && parseInt(server_properties["simulation-distance"]) >= 9) || (spigot["world-settings"]["default"]["simulation-distance"] != "default" && parseInt(spigot["world-settings"]["default"]["simulation-distance"]) >= 9)
+  prefix: "❌"
+  value: "Decrease this in server.properties.\nRecommended: 5 or lower."
