@@ -7,7 +7,7 @@
 ## Analyze timings reports and Spark profiles
 Analyze a timings report or Spark profile to review an in-depth description of potential optimizations. You can try it out yourself on our [Discord](https://discord.gg/zsz3PzT)
 
-<img width="533" alt="image" src="https://media.discordapp.net/attachments/1257102558074376372/1290367158408314910/1727717902676.png?ex=66fc3390&is=66fae210&hm=fb4b8cdf2df30fa5eb2de8071519c4133c607b539053599a896bc0af9c8e8b26&=&format=webp&quality=lossless&width=568&height=629">
+"<img width="593" alt="image" src="https://github.com/user-attachments/assets/6d3910d2-a748-4617-ab26-fb64b247dd65">
 
 ## Hastebin upload (currently unavailable)
 Botflop converts text files and pastebin links into universally accessible bin links. You can try it out yourself on our [Discord](https://discord.gg/zsz3PzT)
